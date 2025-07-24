@@ -88,7 +88,24 @@ Este é um jogo simples desenvolvido com a biblioteca **pgzero (pgzrun)**, onde 
 - Placar exibido no canto superior esquerdo em todos os estados.
 
 ---
-
+## Como rodar
+`1` instale o projeto por .ZIP ou por GitBash
+```gitbash
+git clone https://github.com/cauaenzo/Tutor-Test
+```
+`2` criar um ambiente virtual(só se quiser)
+```bash
+python -m venv venv
+```
+`3` instalar as dependencias
+```bash
+pip install -r requirements.txt
+```
+`4` Executar o Projeto
+```bash
+python main.py
+```
+---
 # Considerações
 Sinceramente foi um desafio usar esse pgzrun, já fiz inumeros jogos usando pygame e definitivamente fazer usando somente 
 o rect do pygame e o resto na mão é algo massante demais, e ainda mais em um arquivo só, complicado.
