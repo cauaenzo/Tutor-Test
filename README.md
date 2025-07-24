@@ -1,6 +1,7 @@
 # Tutor-Test
 teste de tutor python
 ## Jogo de Herói e Inimigos
+![Image](galeria/home.png) 
 
 Este é um jogo simples desenvolvido com a biblioteca **pgzero (pgzrun)**, onde você controla um herói azul que deve eliminar inimigos vermelhos enquanto evita colisões com eles.
 
@@ -44,6 +45,7 @@ Este é um jogo simples desenvolvido com a biblioteca **pgzero (pgzrun)**, onde 
 - **Som**: Música ambiente ativável no menu e durante o jogo.
 - **Vitória**: Ao eliminar todos os inimigos, mensagem de vitória é exibida junto a botão para voltar ao menu.
 
+  ![Image](galeria/you_win.png)
 ---
 
 ## Controles
@@ -70,6 +72,8 @@ Este é um jogo simples desenvolvido com a biblioteca **pgzero (pgzrun)**, onde 
   - `playing`
   - `won`
 - Animações simples trocando entre dois tons para herói e inimigos.
+  
+  ![Image](galeria/jogo_rolando.png) 
 
 ---
 
@@ -97,6 +101,10 @@ git clone https://github.com/cauaenzo/Tutor-Test
 ```bash
 python -m venv venv
 ```
+deve ficar assim:
+
+![Image](galeria/caminho_relativo.png)
+
 `3` instalar as dependencias
 ```bash
 pip install -r requirements.txt
